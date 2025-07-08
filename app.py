@@ -144,6 +144,13 @@ app_ui = ui.page_fluid(
             class_="mt-3 text-muted"
         ),
         
+        # Footer
+        ui.hr(),
+        ui.p(
+            "This app is built for educational purposes by Adnuri Mohamidi with help from AI.",
+            class_="text-center text-muted small"
+        ),
+        
         class_="container-fluid",
         style="max-width: 1200px; margin: 0 auto; padding: 20px;"
     )
