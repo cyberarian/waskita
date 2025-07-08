@@ -1,0 +1,5 @@
+shiny
+huggingface_hub
+python-dotenv
+aiohttp
+google-generativeai
