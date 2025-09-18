@@ -241,7 +241,7 @@ def server(input, output, session):
             
             print("📡 Sending request to Hugging Face API...")
             completion = hf_client.chat.completions.create(
-                model="Intelligent-Internet/II-Medical-8B-1706:featherless-ai", messages=messages, max_tokens=1000, temperature=0.7
+                model="Intelligent-Internet/II-Medical-8B-1706", messages=messages, max_tokens=1000, temperature=0.7
             )
             
             if completion.choices:
